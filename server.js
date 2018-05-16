@@ -20,8 +20,8 @@ mongoose.Promise = global.Promise;
 
 mongoose.connect(mlabMongoUrl, {
   auth: {
-   user: 'philipdrubich',
-   password: 'philipDru32#*',
+   user: 'doggy',
+   password: 'a1234567',
   }}).then(() => console.log('connection successful'))
   .catch((err) => console.error(err));
 
